@@ -1,22 +1,8 @@
-/*
- * Webasyst CUSTOM theme family
- *
- * Photos app CSS
- * (requires linking base custom.css file from the Site app)
- *
- * @link http://www.webasyst.com/
- * @author Webasyst LLC
- * @copyright 2012 Webasyst LLC
- * @package Webasyst
- */
-
-#gallery-nav { text-align: center; margin-top: -20px;  margin-bottom: 30px; font-size: 110%; }
+#gallery-nav { text-align: center;  margin-bottom: 30px; font-size: 110%; }
 #gallery-nav ul.menu-h li { float: none; display: inline-block; /* IE8- hack */ display: block\9; float: left\9; }
-#gallery-nav .popup { max-width: 400px; max-height: 70%; overflow-y: scroll; }
+#gallery-nav .popup { max-width: 400px; }
 #gallery-nav .popup ul.menu-v { padding-left: 6px; }
 #gallery-nav .popup ul.menu-v li { display: block; float: none; list-style: none; line-height: 1.3em; text-align: left;  }
-#gallery-nav .popup ul.menu-v li a { color: #03c; }
-#gallery-nav .popup ul.menu-v li a:hover { color: red; }
 #gallery-nav .popup ul.menu-v li ul { padding-left: 15px; padding-top: 2px; font-size: 0.9em; margin-bottom: 10px; }
 #gallery-nav .popup ul.menu-v li ul li { float: none; }
 #gallery-nav .popup ul.menu-v li ul li a { font-weight: normal; }
@@ -82,7 +68,7 @@ ul.photostream li.stream-nav.ff i { background: url('img/photostream-ff.png') no
 .hero.superhero .image { text-align: center; }
 .hero.superhero .image img { display: block; margin: 0 auto; }
 .hero.superhero .image .stack img { display: inline-block; }
-
+#photo{ width: auto !important; }
 #photo-name { margin-top: 30px; }
 
 /* photo lists */
@@ -112,8 +98,6 @@ ul.view-mixed li.brick ul li a img.margined-bottom { margin-bottom: 10px; }
 ul.view-mixed.album-float-left-view { margin-top: 10px; }
 ul.view-mixed.album-float-left-view li.brick { display: block; margin-right: 10px; float: left; }
 
-.tags a { color: green !important; }
-.tags a:hover { color: red !important; }
 
 /* comments */
 
@@ -191,16 +175,8 @@ ul.view-mixed.album-float-left-view li.brick { display: block; margin-right: 10p
 .icon10.star-empty { background-position:-20px -16px; }
 .icon16.loading { background-image: url("/wa-content/img/loading16.gif"); background-position:0 0; }
 
-.da-thumbs {
-	list-style: none;
-	width: 984px;
-	height: 600px;
-	position: relative;
-	margin: 20px auto;
-	padding: 0;
-}
-.da-thumbs li {
 
+.da-thumbs li {
 	margin: 5px;
 	background: #fff;
 	padding: 8px;

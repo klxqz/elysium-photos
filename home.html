@@ -1,24 +1,9 @@
 {* homepage template *}
-
 {if !empty($photos)}
-
     {include file='view-thumbs.html'}
-
-    <script type="text/javascript">
-        $(function() {
-
-            $(' #photo-list > li ').each(function() {
-                $(this).hoverdir();
-            });
-
-        });
-    </script>
-
 {else}
-
     <div class="welcome">
-        <h1>[`Welcome to your new photo gallery!`]</h1>
+        <h1><span>[`Welcome to your new photo gallery!`]</span></h1>
         <p>{sprintf('[`Start by uploading photos in your <a href="%s">gallery backend</a>.`]', $wa_backend_url|cat:'photos/')}</p>
     </div>
-
 {/if}
