@@ -11,11 +11,7 @@
         <file path="elysium.photos.css" custom="0">
             <description locale="en_US">Core Photos app CSS</description>
             <description locale="ru_RU">Основной CSS приложения «Фото»</description>
-        </file>
-        <file path="elysium.photos.mobile.css" custom="0">
-            <description locale="en_US">Additional Photos app CSS for multi-touch mobile devices</description>
-            <description locale="ru_RU">Дополнительный CSS приложения «Фото» для мобильных устройств</description>
-        </file>        
+        </file>       
         <file path="content.html" custom="0">
             <description locale="en_US">Main layout and navigation for the Photos app content</description>
 			<description locale="ru_RU">Основное макет вывода содержимого и навигации в приложении «Фото»</description>

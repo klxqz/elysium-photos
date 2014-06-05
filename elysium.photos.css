@@ -85,7 +85,7 @@ ul.view-thumbs li a { text-decoration: none; color: #fff; }
 ul.view-thumbs li { display: inline-block; position: relative; vertical-align: top; width: 250px; margin-right: 15px; margin-bottom: 15px; }
 ul.view-thumbs li img.shadowed { -moz-box-shadow: 0 1px 3px #aaa; -webkit-box-shadow: 0 1px 3px #aaa; box-shadow: 0 1px 3px #aaa; margin-bottom: 5px; }
 ul.view-thumbs.album-float-left-view { margin-top: 10px; }
-ul.view-thumbs.album-float-left-view li { display: block; margin-right: 22px; float: left; }
+ul.view-thumbs.album-float-left-view li { display: block; float: left; }
 
 ul.view-mixed { padding: 0; margin: 0; list-style: none; text-align: center; }
 ul.view-mixed li.brick { display: inline-block; position: relative; vertical-align: top; width: 320px; height: 320px; margin-right: 6px; margin-bottom: 10px; text-align: left; overflow: hidden; /* IE8- hack */ display: block\9; float: left\9; margin-right: 10px\9; }

@@ -1,9 +1,9 @@
 {if $theme_settings.use_yepnope}
+    <link href="{$wa_active_theme_url}elysium.photos.css?v{$wa_theme_version}" rel="stylesheet" type="text/css">
     <script type="text/javascript">
         load_arr.push('{$wa_active_theme_url}js/modernizr.custom.97074.js');
         load_arr.push('{$wa_active_theme_url}js/jquery.hoverdir.js');
         load_arr.push('{$wa_active_theme_url}elysium.photos.css');
-        load_arr.push('{$wa_active_theme_url}elysium.photos.mobile.css');
         load_arr.push('{$wa_url}wa-content/js/jquery-wa/wa.core.js');
         complete_functions['initPotos'] = function() {
             $('#photo-list > li ').each(function() {
@@ -16,7 +16,6 @@
     <script type="text/javascript" src="{$wa_active_theme_url}js/jquery.hoverdir.js"></script>	
     <!-- photos app css -->
     <link href="{$wa_active_theme_url}elysium.photos.css?v{$wa_theme_version}" rel="stylesheet" type="text/css">
-    <link href="{$wa_active_theme_url}elysium.photos.mobile.css?v{$wa_theme_version}"{if !$wa->isMobile()} media="screen and (max-width: 760px)"{/if} rel="stylesheet" type="text/css">
     <!-- js -->
     <script type="text/javascript" src="{$wa_url}wa-content/js/jquery-wa/wa.core.js?v{$wa->version(true)}"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
